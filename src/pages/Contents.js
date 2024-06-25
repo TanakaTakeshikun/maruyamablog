@@ -1,9 +1,14 @@
-import React from 'react';
+import Head from '../components/Contents/Head';
+import Box from '@mui/material/Box';
+
 function Contents() {
   return (
-    <div>
-      Hello
-    </div>
+    <>
+    <Head />
+    <Box component="main" sx={{ p: 6 }}>
+    <h1>ソースコード：<a href='https://github.com/TanakaTakeshikun/maruyamablog'>Github</a><br/>作成中...</h1>
+    </Box>
+    </>
   );
 }
 
